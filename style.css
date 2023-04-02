@@ -1,0 +1,97 @@
+* {
+   margin: 0; 
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: verdana;
+    font-size: 14px;
+    background: rgb(226, 153, 153);
+    margin-top: 50px;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainContent .fromContent{
+    background-color: #e1e1e1;
+    width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(189,177,177);
+}
+
+.mainContent .fromContent h3{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(77, 8, 8);
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.mainContent .fromContent .inputData{
+    margin-bottom: 15px;
+}
+
+.mainContent .fromContent .inputData label{
+    width: 180px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 7px;
+    color: rgb(77, 8, 8);
+}
+
+.mainContent .fromContent .inputData input[type="text"],
+.mainContent .fromContent .inputData input[type="email"],
+.mainContent .fromContent .inputData input[type="password"],
+.mainContent .fromContent .inputData input[type="tel"]{
+     width: 100%;
+     padding: 7px 5px;
+     border: 1px solid rgb(61, 1, 1);
+     background-color: rgb(219, 197, 197);
+     font-family: verdana;
+}
+
+.mainContent .fromContent .inputData textarea{
+    width: 100%;
+     padding: 7px 5px;
+     border: 1px solid rgb(61, 1, 1);
+     background-color: rgb(219, 197, 197);
+     font-family: verdana;
+}
+
+button{
+    width: 20%;
+    padding: 7px 5px;
+    border: 1px solid rgb(61, 1, 1);
+    background-color: rgb(219, 197, 197);
+    font-family: verdana;
+    float: right;
+} 
+
+button:hover{
+    background-color: rgb(95, 40, 40);
+}
+
+.mainContent .fromContent .inputData input[type="file"]{
+    border: 0;
+}
+
+.mainContent .fromContent .inputData input[type="file"]::file-selector-button{
+    border: 0;
+    padding: 5px , 10px;
+    border: 1px solid transparent;
+    background-color: rgb(219, 197, 197);
+}
+
+.mainContent .fromContent .inputData p{
+    color: rgb(77, 8, 8);
+}
